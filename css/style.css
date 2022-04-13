@@ -361,9 +361,9 @@ header nav a:hover{
         grid-template-columns: 100%;
         grid-gap: 50px
 
-}
+    }
 
-.formulario {
+    .formulario {
 
     grid-template-columns: 100%;
     
@@ -381,23 +381,22 @@ header nav a:hover{
     
     min-width: 90%;
     
-}
-.fotofondo2{
+    }
+    .fotofondo2{
     height: 915px;
-}
+    }
 
-.conocenos  {
+    .conocenos  {
     text-align: center;
     color: #525555;
     font-family: 'Hubballi', cursive;
     font-size: 50px;
     margin-top: 60%;
-}
+    }
 
-.slide img{
+    .slide img{
     height: 65vh;
-}
-
+    }
 
 }
     
