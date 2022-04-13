@@ -107,17 +107,24 @@ header nav a:hover{
 .pie-pagina .grupo-1 .box figure img{
     width: 250px;
 }
-.pie-pagina .grupo-1 .box h2{
+.pie-pagina .grupo-1 .box1 h2{
     color: #fff;
     margin-bottom: 25px;
     font-size: 40px;
     font-family:'Hubballi', cursive;
 }
-.pie-pagina .grupo-1 .box P{
+
+.pie-pagina .grupo-1 .box1 P{
     color: #efefef;
     margin-bottom: 10px;
     font-family:'Hubballi', cursive;
-    
+}
+
+.pie-pagina .grupo-1 .box2 h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family:'Hubballi', cursive;
 }
 .pie-pagina .grupo-1 .red-social i {
     display: inline-block;
@@ -154,51 +161,7 @@ header nav a:hover{
     margin-bottom: 3%;
 }
 
-.milanesas h1{
-    margin-bottom: 20px;
-}
 
-.sandwiches{
-    font-family:'Hubballi', cursive;
-    text-align: center;
-    font-size: 20px;
-    color: #525555;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin-bottom: 3%;
-}
-
-.sandwiches h1{
-    margin-bottom: 20px;
-}
-
-.hamburguesas{
-    font-family:'Hubballi', cursive;
-    text-align: center;
-    font-size: 20px;
-    color: #525555;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin-bottom: 3%;
-}
-
-.hamburguesas h1{
-    margin-bottom: 20px;
-}
-
-.tragos{
-    font-family:'Hubballi', cursive;
-    text-align: center;
-    font-size: 20px;
-    color: #525555;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin-bottom: 3%;
-}
-
-.tragos h1{
-    margin-bottom: 20px;
-}
 
 .background-image{
     background-image: url(../img/fotofondo.jpeg);
@@ -240,8 +203,12 @@ header nav a:hover{
 }
 
 .gps{
+    width: 100%;
+    height: 100%;
     text-align: center;
 }
+
+
 
 .formulario{
     width: 90%;
@@ -309,7 +276,23 @@ header nav a:hover{
     background: #e39403;
 }
 
-@media screen and (max-width:768px) {
+
+.fotofondo2{
+
+    background-image: url(https://images.pexels.com/photos/3355400/pexels-photo-3355400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.conocenos h1 {
+    color: white;
+}
+
+.conocenos p {
+    color: white;
+}
+
+/* Media queries */
+
+@media  only screen and (max-width:768px) {
 
     .pie-pagina .grupo-1 {
 
@@ -361,15 +344,60 @@ header nav a:hover{
     }
 }
 
+@media  only screen and (max-width:636px){
+
+    .gps{
+
+        display: none;
+    }
+
+    .box1{
+        display: none;
+    }
+
+
+    .pie-pagina .grupo-1 {
+        width: 90vw;
+        grid-template-columns: 100%;
+        grid-gap: 50px
+
+}
+
+.formulario {
+
+    grid-template-columns: 100%;
+    
+    }
+    
+    .formulario .btn-enviar {
+    
+    display: block;
+    
+    margin: 0 auto;
+    
+    }
+    
+    .formulario form textarea {
+    
+    min-width: 90%;
+    
+}
 .fotofondo2{
-
-    background-image: url(https://images.pexels.com/photos/3355400/pexels-photo-3355400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 915px;
 }
 
-.conocenos h1 {
-    color: white;
+.conocenos  {
+    text-align: center;
+    color: #525555;
+    font-family: 'Hubballi', cursive;
+    font-size: 50px;
+    margin-top: 60%;
 }
 
-.conocenos p {
-    color: white;
+.slide img{
+    height: 65vh;
 }
+
+
+}
+    
